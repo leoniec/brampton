@@ -1,0 +1,23 @@
+Counter = 0
+TeamName = "Zeus"
+PlayerHits = 0
+TotalHits = 0
+AverageHits = 0.0
+PointsEarned = 0
+
+
+print("Input your team name")
+TeamName = input()
+for index in range (1,7):
+    print("Input the number of hits for the current player")
+    PlayerHits = int(input())
+    TotalHits = TotalHits + PlayerHits
+print("Total number of hits is", TotalHits)
+AverageHits = TotalHits / 6
+print ("The average number of hits is", AverageHits)
+if TotalHits >50 and AverageHits >= 10:
+    print(TeamName,"has been awarded two points")
+elif TotalHits >50 and AverageHits <10:
+    print(TeamName, "has been awarded one point")
+else:
+    print(TeamName, "has been awarded zero points")
