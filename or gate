@@ -1,0 +1,8 @@
+print ("Enter an input of 1 or 0")
+answer = input()
+print ("Enter input 2 as 1 or 0")
+answer2 = input()
+if (answer == "1") or (answer2 == "1"):
+    print("Output is 1")
+else:
+    print("Output is 0")
