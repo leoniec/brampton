@@ -1,0 +1,6 @@
+#DECLARE noStudents as INTEGER
+#DECLARE avgAge as REAL
+noStudents = 8
+avgAge = 16.4
+print (noStudents)
+print (avgAge)
