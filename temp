@@ -1,0 +1,17 @@
+def CelsiusToF(tempC):
+    #declare tempF : REAL
+    tempF = tempC * 9/5 + 32
+    print(tempF)
+
+
+def FahrenheitToC(tempF):
+    # declare tempC : REAL
+    tempC = (tempF - 32) * 5/9
+    print(tempC)
+
+
+
+from temp import *
+
+CelsiusToF(100)
+FahrenheitToC (68)
