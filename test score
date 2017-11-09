@@ -1,0 +1,14 @@
+for index in range (0,5):
+    print ("Input student name")
+    studentname = input()
+    print ("Input test score")
+    testscore = int(input())
+#print (studentname, "has scored", testscore)
+    if testscore >= 70:
+        print(studentname, "has achieved a grade A star")
+    elif testscore >= 60 <= 69:
+        print(studentname, "has achieved a grade A")
+    elif testscore >= 50 <= 59:
+        print(studentname, "has achieved a grade B")
+    else:
+        print(studentname, "has achieved a grade C")
