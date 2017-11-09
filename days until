@@ -1,0 +1,32 @@
+def daysUntil(start, target):
+    return target-start
+def daysIn(month):
+    #declare noDays:INTEGER
+    if (month == 4) or (month == 6) or (month == 9) or (month == 11):
+        noDays = 30
+    else:
+        if(month == 2):
+          noDays = 28
+        else:
+            noDays = 31
+    return noDays
+    
+    
+    from until import *
+#declare currDay : INTEGER
+#declare currMonth : INTEGER
+#declare futDay : INTEGER
+#declare futMonth : INTEGER
+#declare totalDays : INTEGER
+#declare thisMonth : INTEGER
+currDay = int(input("Enter current day number"))
+currMonth = int(input("Enter current month number"))
+futDay = int(input("Enter future day number"))
+futMonth = int(input("Enter future month number"))
+totalDays = 0
+for thisMonth in range(currMonth,futMonth+1):
+    if thisMonth < futMonth:
+        totalDays = totalDays + daysIn(thisMonth)
+    else:
+        totalDays = totalDays + daysUntil(currDay,futDay)
+print(totalDays)
