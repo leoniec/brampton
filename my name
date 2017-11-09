@@ -1,0 +1,11 @@
+myName = "Cole"
+if myName == "Leonie":
+    print("Hello Leonie")
+elif myName == "Yael":
+    print("Hello Yael")
+elif myName == "Cole":
+    print("Hello Cole")
+elif myName == "Finn":
+    print("Hello Finn")
+else:
+    print("Who are you?")
