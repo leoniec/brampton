@@ -1,0 +1,47 @@
+#DECLARE noStudents as INTEGER
+#DECLARE avgAge as REAL
+noStudents = 8
+avgAge = 16.4
+print (noStudents)
+print (avgAge)
+
+#DECLARE message AS STRING
+#DECLARE index AS INTEGER
+print ("Enter a message")
+message = input()
+for index in range (0,10):
+    print (message)
+    
+    #DECLARE values AS REAL
+
+# FOR index <-- 10 to 0 STEP -2
+#    OUTPUT index
+# END FOR
+
+for index in range(10,-1,-2):
+    print(index)
+
+
+#for index in range (25, 6, -1):
+#    print (index)
+
+#DECLARE noCookies : INTEGER
+print ("Enter numvber of cookies to buy")
+noCookies = int(input())
+Cost = noCookies * 0.40
+print ("Total cost is", round(Cost,2))
+
+#DECLARE distance : INTEGER
+#DECLARE speed : REAL
+#DECLARE time : INTEGER
+print ("Input distance in miles")
+distance = int(input())
+print ("Input time in hours")
+time = int(input())
+speed = distance/time
+print ("The speed is", round(speed,3))
+
+#DECLARE number : INTEGER
+print ("Enter a number")
+number = int(input())
+if (number MOD 2) = 0 then:
