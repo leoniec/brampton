@@ -11,19 +11,19 @@ answer = int(input())
 if answer == 12:
     for no in range(1, 13):
         for no1 in range(1, 13):
-            print(no * no1, "", end="")
+            print("%03d" % (no * no1), "", end="")
         print()
     print("End")
 elif answer == 13:
     for no in range(1, 14):
         for no1 in range(1, 14):
-            print(no * no1, "", end="")
+            print("%03d" % (no * no1), "", end="")
         print()
     print("End")
 elif answer == 14:
     for no in range(1, 15):
         for no1 in range(1, 15):
-            print(no * no1, "", end="")
+            print("%03d" % (no * no1), "", end="")
         print()
     print("End")
 elif answer == 15:
