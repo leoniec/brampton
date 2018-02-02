@@ -12,7 +12,6 @@ message = input()
 for index in range (0,10):
     print (message)
     
-    #DECLARE values AS REAL
 
 # FOR index <-- 10 to 0 STEP -2
 #    OUTPUT index
@@ -21,9 +20,6 @@ for index in range (0,10):
 for index in range(10,-1,-2):
     print(index)
 
-
-#for index in range (25, 6, -1):
-#    print (index)
 
 #DECLARE noCookies : INTEGER
 print ("Enter numvber of cookies to buy")
