@@ -13,7 +13,8 @@ for b in range(number):
     #as loop does not output the inputted number, additional if statement tests the actual number
 if number % 2 != 0 and number % 3 != 0 and number % 5 != 0 and number % 7 != 0 and number != 0 and number != 1 or number == 2 or number == 3 or number == 5 or number == 7:
     print(number)
-#takes 4s seconds to print each prime between 0 and 100000
+#takes 1.2 seconds to print each prime between 0 and 100000
+#takes 5.37 seconds to print each prime between 0 and 1000000
 answer = input("Are you ready to close the program, yes or no?")
 while (answer == "no"):
     answer = input("Are you ready to close the program now?")
